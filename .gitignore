@@ -1,0 +1,20 @@
+cat <<EOT >> .gitignore
+# Môi trường ảo Python
+venv/
+env/
+__pycache__/
+
+# Dữ liệu Big Data (Tuyệt đối không push)
+data/
+*.csv
+*.pkl
+
+# File Model và Trọng số
+models/
+*.pt
+*.pth
+
+# Các file rác hệ thống
+.DS_Store
+*.log
+EOT
